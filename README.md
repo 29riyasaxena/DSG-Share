@@ -10,6 +10,7 @@ Dept(string) This function is used to convert department names which are in shor
 Specializations(string) This function is used in splits the words(specialisation) for deeper research.
 
 Designation(df) This function has sorted the designation of all professors in an Descending order accordingly
+
    1."Professor Emeritus"
    2."Professor Of Practice"
    3."Retired Faculty"
