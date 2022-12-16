@@ -25,7 +25,7 @@ PHD_score(string)  gives score of 0.5 to PHD under supervision and 1 to complete
 
 YOC(df) sorts the PHDs based on year of completion of their PHD in ascending order.
 
-#EDA
+# EDA
 Necessary modules were imported and dataframe taking into consideration only first 125 columns were used to infer information.
 A pie chart is created to show the department wise division of the faculty for the considered dataframe.
 Unique values of designation and departments were taken upto the considered dataframe and then bar graph for each department showing designation distribution of the professor is made
