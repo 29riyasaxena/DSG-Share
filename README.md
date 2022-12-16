@@ -20,3 +20,7 @@ Designation(df) This function has sorted the designation of all professors in an
    7."Assistant Professor"
    
  Professor Emeritus > Professor Of Practice > Retired Faculty > HAG - Professor > Professor > Associate Professor > Assistant Professor
+ 
+PHD_score(string)  gives score of 0.5 to PHD under supervision and 1 to completed.
+
+YOC(df) sorts the PHDs based on year of completion of their PHD in ascending order.
