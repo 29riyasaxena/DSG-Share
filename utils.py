@@ -47,7 +47,7 @@ def dept(x):
         "WRDM" : "Department of Water Resources Development and Management",
         "DES" : "Department of Design"
     }
-    return d[x]
+  return d[x]
 
 def Specializations(string):
   return re.split(",|;",string)
