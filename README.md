@@ -34,6 +34,8 @@ An inference about the gender base division for the faculty members is made usin
 
 Then a countplot representing the number of profs who graduated between the specified year categories is made while having a gender-wise comparision.
 
+Combinations of 2-3 columns have been interlinked and their relative counts have been displayed as countplots for visual understanding of the data.
+
 Next, a graphical inference is made to analyze the distribution of faculty members based on the country from which they graduated.
 
 
