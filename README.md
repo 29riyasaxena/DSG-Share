@@ -1,15 +1,15 @@
 # DSG-Share
-A repository for the collab project of DSG and ShARE
+A repository for the collab project of DSG and ShARE under ADCI, IITR.
 
 # Deep into the code
-We used re library, a regular expression (or RE) specifies a set of strings that matches it; the functions in this module let you check if a particular string matches a given regular expression. Here we used it for matching with comma.
+We used **re** library, a regular expression (or RE) specifies a set of strings that matches it; the functions in this module let you check if a particular string matches a given regular expression. Here we used it for matching with comma.
 
 
-Dept(string) This function is used to convert department names which are in short form to long form for better understanding.
+Dept(string): This function is used to convert department names which are in short form to long form for better understanding.
 
-Specializations(string) This function is used in splits the words(specialisation) for deeper research.
+Specializations(string): This function is used in splits the words(specialisation) for deeper research.
 
-Designation(df) This function has sorted the designation of all professors in an Descending order accordingly
+Designation(df): This function has sorted the designation of all professors in an Descending order accordingly
 
    1."Professor Emeritus"
    2."Professor Of Practice"
@@ -21,9 +21,9 @@ Designation(df) This function has sorted the designation of all professors in an
    
  Professor Emeritus > Professor Of Practice > Retired Faculty > HAG - Professor > Professor > Associate Professor > Assistant Professor
  
-PHD_score(string)  gives score of 0.5 to PHD under supervision and 1 to completed.
+PHD_score(string):  gives score of 0.5 to PHD under supervision and 1 to completed.
 
-YOC(df) sorts the PHDs based on year of completion of their PHD in ascending order.
+YOC(df): sorts the PHDs based on year of completion of their PHD in ascending order.
 
 # EDA
 Necessary modules were imported and dataframe taking into consideration only first 125 columns were used to infer information.
